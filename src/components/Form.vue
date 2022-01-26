@@ -1,7 +1,7 @@
 <template>
   <div>
       <div class="conten">
-        <img class="sinau" src="img/Sinau Coding 1.png" alt="sinau koding">
+        <img class="sinau" src="../assets/img/Sinau Coding 1.png" alt="sinau koding">
         <form action="">
             <div class="form-control">
                 <label for="username">Username</label>

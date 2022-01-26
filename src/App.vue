@@ -17,42 +17,37 @@
                     <router-link to="/about">About</router-link>
                   </li>
               </ul>
-              <!-- <a class="btn" href="#">
-                  <button>Join</button>
-              </a> -->
+                <button class="btn" @click="showMe">Join us</button>
           </nav>
         </header>
-          <section>
-            <div class="col1">
-                <h2>WELCOME TO SINAU KODING ACADEMY</h2>
-                <p>
-                    Sinau Koding adalah Program Pelatihan Programer dengan materi yang relevan pada kebutuhan industri saat ini. Materi yang ditawarkan diantaranya pemrograman website dan android Lihat
-                </p>
-            </div>
-            <div class="col2">
-                <img src="./assets/img/flatdesign 1.png" alt="sinau koding">
-            </div>
-        </section>
-        <footer>
-            <p class="kiri">Sinau KODING ACADEMY 2021 ©</p>
-            <p class="kanan">Join us</p>
-            <img class="twitter" src="./assets/img/twitter.png" alt="">
-        </footer>
-      
+
+          <router-view :show="show"></router-view>
+
+        <Footer />
     </body>
-    <router-view></router-view>
   </div>
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
+import Footer from "./components/Footer.vue";
 
 export default {
   name: 'App',
   components: {
-    // HelloWorld
-  }
-}
+    Footer,
+  },
+  data() {
+    return{
+      show: true,
+    };
+  },
+  methods: {
+    showMe() {
+      this.show = !this.show;
+    },
+  },
+};
 </script>
 
 <style>
