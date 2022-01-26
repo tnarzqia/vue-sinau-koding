@@ -100,7 +100,7 @@ section{
 .col2{
     position: relative;
     float: right;
-    text-align: center;
+    /* text-align: center; */
 }
 .col2 img{
     width: 500px;
@@ -108,15 +108,74 @@ section{
     left: 730px;
     top: 72px;
 }
+.conten{
+    margin-top: 50px;
+    width: 400px;
+    height: 425px;
+    left: 0px;
+    top: 0px;
+    background: #292D32;
+    box-shadow: -8px -8px 10px #30343A, 8px 8px 10px #24262C;
+    border-radius: 12px;
+    padding: 20px;
+}
+img.sinau{
+    width: 100px;
+    height: 40px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* margin-top: 50px; */
+}
+.form-control{
+    margin-top: 20px;
+}
+label{
+    position: static;
+    left: 0;
+    top: 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #D7D7D7;
+    letter-spacing: 0.04em;
+}
+
+input{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px 20px;
+    position: static;
+    width: 350px;
+    height: 20px;
+    left: 0px;
+    top: 22px;
+    background: #292D32;
+    box-shadow: inset -8px -8px 10px #30343A, inset 8px 8px 10px #24262C;
+    border-radius: 8px;
+    /* Inside auto layout */
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin: 8px 0px;
+    color: #D7D7D7;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+}
 
 /* footer */
 footer{
-    position: static;
+    position: absolute;
     width: 100%;
     height: 66px;
     left: 0px;
     bottom: 0px;
-    
     background: linear-gradient(315deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.6) 100%), #292D32;
     background-blend-mode: soft-light, normal;
 }
@@ -161,4 +220,17 @@ img.twitter{
     box-sizing: border-box;
     border-radius: 50px;
     width: 20px;
+}
+button.login{
+    position: absolute;
+    width: 395px;
+    height: 40px;
+    left: 20px;
+    top: 430px;
+    background: #292D32;
+    box-shadow: -8px -8px 10px #30343A, 8px 8px 10px #24262C;
+    border-radius: 8px;
+    color: #D7D7D7;
+    text-transform: uppercase;
+
 }

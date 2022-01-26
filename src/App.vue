@@ -21,6 +21,7 @@
                   <button>Join</button>
               </a> -->
           </nav>
+        </header>
           <section>
             <div class="col1">
                 <h2>WELCOME TO SINAU KODING ACADEMY</h2>
@@ -37,7 +38,7 @@
             <p class="kanan">Join us</p>
             <img class="twitter" src="./assets/img/twitter.png" alt="">
         </footer>
-      </header>
+      
     </body>
     <router-view></router-view>
   </div>
