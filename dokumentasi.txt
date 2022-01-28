@@ -1,0 +1,2 @@
+Install bootstrap vue dengan npm: npm install bootstrap
+Install popper dengan npm pada link berikut : https://www.npmjs.com/package/@popperjs/core dan jalankan npm i @popperjs/core

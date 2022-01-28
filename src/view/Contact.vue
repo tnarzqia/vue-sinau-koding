@@ -1,18 +1,25 @@
-<script>
-export default {}
-</script>
-
 <template>
-  <div>
-      <h3>Contact</h3>
+  <div class="contact">
+    <b-form-rating v-model="value" color="indigo" class="mb-2"></b-form-rating>
+    <b-form-rating v-model="value" color="#ff00ff" class="mb-2"></b-form-rating>
+    <b-form-rating v-model="value" color="rgb(64, 192, 128)" class="mb-2"></b-form-rating>
+    <b-form-rating v-model="value" color="rgba(64, 192, 128, 0.75)" class="mb-2"></b-form-rating>
+    <p class="mt-2">Value: {{ value }}</p>
   </div>
 </template>
 
-
-<style module>
-    h3{
-        margin-top: 100px;
-        color: aliceblue;
+<script>
+  export default {
+    data() {
+      return {
+        value: null
+      }
     }
-</style>
+  }
+</script>
 
+<style>
+.contact{
+    margin-top: 100px;
+}
+</style>

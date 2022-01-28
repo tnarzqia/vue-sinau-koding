@@ -19,13 +19,13 @@ export default {
     methods: {
         getData: async function(){
             const response = await fetch("http://192.168.0.253:8321/api/mastersupport/getdata");
-            console.log(this.response)
             const res = await response.json();
+            console.log(this.response)
             this.response=res.data;
         },
     },
     mounted(){
-        this.getdata()
+        this.getData()
     }
 }
 </script>
