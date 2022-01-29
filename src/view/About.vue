@@ -4,7 +4,13 @@ export default {}
 
 <template>
   <div>
-      <h3>About</h3>
+    <h1>Halaman About</h1>
+    <div>
+        <b-button>Button</b-button>
+        <b-button variant="danger">Button</b-button>
+        <b-button variant="success">Button</b-button>
+        <b-button variant="outline-primary">Button</b-button>
+    </div>
   </div>
 </template>
 

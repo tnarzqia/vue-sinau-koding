@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Source+Sans+Pro:wght@400;600;700&display=swap');
+*{
+  font-family: 'Roboto', sans-serif;
+}
+.nav{
+    background: linear-gradient(315deg, rgba(255, 255, 255, 0.25) 0%, rgba(0, 0, 0, 0) 100%), #292D32;
+}
+.menu{
+  text-transform: uppercase;
+  color: rgb(196, 240, 0);
+  font-size: 14px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 0.02em;
+}
+b-navbar-nav, .btn{
+  text-transform: uppercase;
+  box-shadow: -2px -2px 8px #474C54, 2px 2px 8px #17191C;
+  background: #292D32;    
+}
+.join{
+  box-shadow: -2px -2px 8px #474C54, 2px 2px 8px #17191C;
+  background: #044ca5;  
+}
+section{
+    background-color: #292D32;
+}
+h3{
+    color: #D7D7D7;
+    font-size: 14px;
+    line-height: 34px;
+    /* or 133% */
+    letter-spacing: 0.08em;   
+    text-transform: uppercase;
+}
+p{
+    color: #D7D7D7;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+b-col, p.keterangan{
+    color: #D7D7D7;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+}
+label{
+  font-size: 12px;
+  line-height: 14px;
+  color: #D7D7D7;
+  letter-spacing: 0.04em;
+
+}
+b-form-input, .inputs{
+    background-color: #292D32;
+    /* box-shadow: inset -8px -8px 10px #30343A, inset 8px 8px 10px #24262C; */
+    /* border-radius: 8px; */
+}
+b-card.form{
+    max-width: 30rem;
+    background: #292D32;
+    box-shadow: -8px -8px 10px #30343A, 8px 8px 10px #24262C;
+}
+.footer{
+    background: linear-gradient(315deg, rgba(255, 255, 255, 0) 0%, rgba(0, 0, 0, 0.6) 100%), #292D32;
+    background-blend-mode: soft-light, normal;
+}
