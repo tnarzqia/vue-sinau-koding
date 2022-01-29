@@ -1,11 +1,11 @@
 <template>
   <div>
     <b-card
-        style="max-width: 30rem; background: #292D32; border-radius: 12px;"
-        class="shadow-lg my-2 mx-5 border-radius"
+        style="background: #292D32; border-radius: 12px;"
+        class="shadow-lg my-2 border-radius"
     >
         <div class="d-flex justify-content-center py-3">
-            <img src="./assets/img/Sinau Coding 1.png" alt="">
+            <img src="../assets/img/Sinau Coding 1.png" alt="">
         </div>
 
         <b-card-text>

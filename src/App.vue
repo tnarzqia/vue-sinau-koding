@@ -41,7 +41,6 @@
 
 <script>
 import Footer from "./components/Footer-bootstrap.vue";
-
 export default {
   name: 'App',
   components: {
